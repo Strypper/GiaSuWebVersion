@@ -1,0 +1,57 @@
+.card {
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 40px;
+    width: 200px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+  }
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    object-fit: cover;
+    flex: 1;
+  }
+.card.card-small {
+    height: 120px;
+    min-width: 400px;
+    padding: 0px;
+}
+.card:not(.highlight-card) {
+    cursor: pointer;
+}
+.card:not(.highlight-card):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
+.Info{
+    text-align: start;
+    flex: 3;
+}
+.InfoElement{
+    display: block;
+    margin: 5px;
+}
+.ActionButtons{
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ActionButtons button{
+    display: block;
+    margin: 25px;
+    margin-top: 0px;
+    border: none;
+    background-color: transparent;
+}

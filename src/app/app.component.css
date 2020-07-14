@@ -1,0 +1,109 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    background-color: #6ca7ca;
+    color: white;
+    font-weight: 600;
+  }
+  #LeftNav{
+    flex: 1;
+    display: flex;
+  }
+  #MiddleNav{
+    flex: 3;
+    display: flex;
+  }
+  #RightNav{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #AppLogo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+  }
+  .DownloadIcon{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+  .navbar-button{
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #009bdf;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "montserrat",sans-serif;
+  }
+  #SearchBar{
+      width: 50%;
+      height: 3vh;
+      text-align: center;
+      border-color: #26aade;
+  }
+
+  .content{
+      margin-top: 60px;
+      text-align: center;
+  }
+
+  .card svg.material-icons path {
+    fill: #25aade;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .card {
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 40px;
+    width: 300px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+  }
+
+
+  .card.card-small {
+    height: 16px;
+    width: 168px;
+  }
+
+  .card-container .card:not(.highlight-card) {
+    cursor: pointer;
+  }
+
+  .card-container .card:not(.highlight-card):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px #26aade;
+  }
