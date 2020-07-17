@@ -20,4 +20,8 @@ export class HttpService {
     const fullUrl = this.baseUrl + url;
     return this._http.get<T>(fullUrl, this.httpOptions);
   }
+  basicHttpGetRequest(url : string){
+    const fullUrl = this.baseUrl + url;
+    return this._http.get(fullUrl);
+  }
 }

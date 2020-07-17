@@ -1,0 +1,4 @@
+<button class="studyGroupButton" style="background-image: url('{{studyGroupInput?.studyGroupImage}}'); background-size: cover;"
+        [ngClass]="{'is-active':this.isSelected}" (click)="isSelectedClick()">
+    <span style="font-weight: bold;">{{studyGroupInput?.studyGroupName}}</span>
+</button>

@@ -1,83 +1,43 @@
 
-
 <div class="toolbar" role="banner">
   <div id="LeftNav">
-    <a href="#">
-      <img class="DownloadIcon" src="../assets/icons/Windows.png"/>
-    </a>
-    <a href="#">
-      <img class="DownloadIcon" src="../assets/icons/Apple.png"/>
-    </a>
-    <a href="#">
-      <img class="DownloadIcon" src="../assets/icons/Android.png"/>
-    </a>
+    <button mat-raised-button style="margin: 5px; background-color: #2b78fe"><mat-icon>border_all</mat-icon>Windows 10</button>
   </div>
   <div id="MiddleNav">
     <img id="AppLogo" src="../assets/icons/GiaSuLogo.svg">
   </div>
   <div id="RightNav">
-    <button class="navbar-button">ĐĂNG KÝ</button>
-    <button class="navbar-button">ĐĂNG NHẬP</button>
+    <button mat-raised-button style="margin: 5px; background-color: orange;"><mat-icon>add_box</mat-icon>ĐĂNG KÝ</button>
+    <button mat-raised-button style="margin: 5px; background-color: #009bdf;"><mat-icon>perm_identity</mat-icon>ĐĂNG NHẬP</button>
   </div>
 </div>
 
 <div class="content" role="main">
-
-  <!-- Resources -->
-  <h2 style="font-weight: bolder;">CHỌN KHỐI ĐẠI HỌC</h2>
-
+  <h1 style="font-weight: bolder; display: block;">CHỌN KHỐI ĐẠI HỌC</h1>
   <div class="card-container">
-    <a class="card" target="_blank" rel="noopener">
-      <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-code-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-        <path fill-rule="evenodd" d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
-      </svg>
-      <span style="margin: 5px; font-weight: bold;">CÔNG NGHỆ THÔNG TIN</span>
-    </a>
-
-    <a class="card" target="_blank" rel="noopener">
-      <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-graph-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0 0h1v16H0V0zm1 15h15v1H1v-1z"/>
-        <path fill-rule="evenodd" d="M14.39 4.312L10.041 9.75 7 6.707l-3.646 3.647-.708-.708L7 5.293 9.959 8.25l3.65-4.563.781.624z"/>
-        <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4h-3.5a.5.5 0 0 1-.5-.5z"/>
-      </svg>
-      <span style="margin: 5px; font-weight: bold;">QUẢN TRỊ KINH DOANH</span>
-    </a>
-
-    <a class="card" target="_blank" rel="noopener">
-      <svg width="2.3em" height="2.3em" viewBox="0 0 16 16" class="bi bi-calculator-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M12 1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
-        <path d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z"/>
-      </svg>
-      <span style="margin: 5px; font-weight: bold;">ỨNG DỤNG KHOA HỌC VÀ CƠ BẢN</span>
-    </a>
-
-    <a class="card" target="_blank" rel="noopener">
-      <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-bricks" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M15 13H1v2h14v-2zM1 12a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H1zm14-5H1v2h14V7zM1 6a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H1z"/>
-        <path fill-rule="evenodd" d="M13 10H3v2h10v-2zM3 9a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3zm10-5H3v2h10V4zM3 3a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3z"/>
-        <path fill-rule="evenodd" d="M15 1H1v2h14V1zM1 0a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1z"/>
-        <path fill-rule="evenodd" d="M5.5 1v2h-1V1h1zm6 0v2h-1V1h1zm-4 5V4h1v2h-1zm-2 1v2h-1V7h1zm6 0v2h-1V7h1zm-4 5v-2h1v2h-1zm-3 3v-2h1v2h-1zm6 0v-2h1v2h-1z"/>
-      </svg>
-      <span style="margin: 5px; font-weight: bold;">KIẾN TRÚC VÀ XÂY DỰNG</span>
-    </a>
-
-    <a class="card" target="_blank" rel="noopener">
-      <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-gear-wide-connected" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M8.932.727c-.243-.97-1.62-.97-1.864 0l-.071.286a.96.96 0 0 1-1.622.434l-.205-.211c-.695-.719-1.888-.03-1.613.931l.08.284a.96.96 0 0 1-1.186 1.187l-.284-.081c-.96-.275-1.65.918-.931 1.613l.211.205a.96.96 0 0 1-.434 1.622l-.286.071c-.97.243-.97 1.62 0 1.864l.286.071a.96.96 0 0 1 .434 1.622l-.211.205c-.719.695-.03 1.888.931 1.613l.284-.08a.96.96 0 0 1 1.187 1.187l-.081.283c-.275.96.918 1.65 1.613.931l.205-.211a.96.96 0 0 1 1.622.434l.071.286c.243.97 1.62.97 1.864 0l.071-.286a.96.96 0 0 1 1.622-.434l.205.211c.695.719 1.888.03 1.613-.931l-.08-.284a.96.96 0 0 1 1.187-1.187l.283.081c.96.275 1.65-.918.931-1.613l-.211-.205a.96.96 0 0 1 .434-1.622l.286-.071c.97-.243.97-1.62 0-1.864l-.286-.071a.96.96 0 0 1-.434-1.622l.211-.205c.719-.695.03-1.888-.931-1.613l-.284.08a.96.96 0 0 1-1.187-1.186l.081-.284c.275-.96-.918-1.65-1.613-.931l-.205.211a.96.96 0 0 1-1.622-.434L8.932.727zM8 12.997a4.998 4.998 0 1 0 0-9.995 4.998 4.998 0 0 0 0 9.996z"/>
-        <path fill-rule="evenodd" d="M7.375 8L4.602 4.302l.8-.6L8.25 7.5h4.748v1H8.25L5.4 12.298l-.8-.6L7.376 8z"/>
-      </svg>
-      <span style="margin: 5px; font-weight: bold;">KỸ THUẬT</span>
-    </a>
-  </div>
-
-  <h2>TÌM KIẾM</h2>
-  <input id="SearchBar" type="text">
+    <app-study-group *ngFor="let collegeStudyGroup of (CollegeStudyGroups || [])"
+                      [studyGroupInput] = "collegeStudyGroup"></app-study-group>
+  </div>      
+  <input style="width: 85.5%; padding: 10px; font-size: 20px; font-weight: bolder; text-align: center;" type="text" placeholder="TÌM MÔN HỌC" [matAutocomplete]="auto"/>
+  <mat-autocomplete #auto="matAutocomplete">
+    <mat-option *ngFor="let subjectsuggest of CollegeSubjectSuggestion" [value]="subjectsuggest">
+      {{subjectsuggest}}
+    </mat-option>
+  </mat-autocomplete>
   <div class="card-container">
     <app-college-subject-request *ngFor="let collegeSubject of (CollegeSubjectsRequest || [])"
                                   [CollegeSubject] = "collegeSubject">
     </app-college-subject-request>
   </div>
   <app-pagination></app-pagination>
+  <div style="position: fixed; bottom: 10px; left: 0.5%;">
+    <button mat-fab style="margin: 5px;">
+      <mat-icon>android</mat-icon>
+    </button>
+    <button mat-fab style="margin: 5px; font-weight: bolder;
+                          color: white; background-color: #3b3b3b; text-align: center;">
+      IOS
+    </button>
+  </div>
 
 <router-outlet></router-outlet>

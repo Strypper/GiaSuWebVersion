@@ -1,0 +1,25 @@
+.studyGroupButton {
+    background: none;
+    color: white;
+    width: 400px;
+    height: 50px;
+    font-size: 15px;
+    transition: 1s;
+    transition-property: border, color;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid white;
+  }
+.studyGroupButton:focus{
+    outline: none;
+}
+.studyGroupButton:hover{
+    border: 5px solid #6ca7ca;  
+    color: #6ca7ca;
+    cursor: pointer;
+  }
+  .studyGroupButton.is-active{
+    border: 5px solid #6ca7ca;  
+    color: #6ca7ca;
+  }

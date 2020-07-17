@@ -1,5 +1,8 @@
-<button mat-raised-button>Previous</button>
-<mat-button-toggle class="ToggleButton">1</mat-button-toggle>
-<mat-button-toggle class="ToggleButton">2</mat-button-toggle>
-<mat-button-toggle class="ToggleButton">3</mat-button-toggle>
-<button mat-raised-button>Next</button>
+<button mat-raised-button><mat-icon>chevron_left</mat-icon></button>
+    <mat-button-toggle-group #toggleGroup="matButtonToggleGroup">
+        <mat-button-toggle class="ToggleButton" value="{{page}}" *ngFor="let page of (numberOfCollegeSubjectRequestPages)">Trang {{page}}</mat-button-toggle>
+    </mat-button-toggle-group>
+<button mat-raised-button><mat-icon>chevron_right</mat-icon></button>
+<div style="font-weight: bold; margin: 5px;">
+    Trang: {{toggleGroup.value}}
+</div>

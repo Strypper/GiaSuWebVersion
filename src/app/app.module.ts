@@ -5,6 +5,10 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { HttpClientModule } from '@angular/common/http';
 import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatIconModule } from '@angular/material/icon'
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatPaginatorModule } from '@angular/material/paginator';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,12 +18,14 @@ import { CollegeSubjectRequestComponent } from './Components/college-subject-req
 
 import { PaginationComponent } from './Components/pagination/pagination.component';
 import { from } from 'rxjs';
+import { StudyGroupComponent } from './Components/study-group/study-group.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CollegeSubjectRequestComponent,
-    PaginationComponent
+    PaginationComponent,
+    StudyGroupComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +34,11 @@ import { from } from 'rxjs';
     HttpClientModule,
     MatPaginatorModule,
     MatButtonModule,
+    MatIconModule,
     MatButtonToggleModule,
+    MatAutocompleteModule,
+    MatInputModule,
+    MatFormFieldModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
